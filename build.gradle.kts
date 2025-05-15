@@ -1,5 +1,6 @@
 plugins {
-    id("java")
+    application
+    id("org.openjfx.javafxplugin") version "0.0.14"
 }
 
 group = "org.example"
@@ -9,11 +10,17 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
+javafx {
+    version = "21.0.6"
+    modules("javafx.controls", "javafx.web")
 }
 
-tasks.test {
-    useJUnitPlatform()
+application {
+    mainClass.set("org.example.Inicio")
+}
+
+tasks.withType<Jar> {
+    from("src/main/resources") {
+        into("/")
+    }
 }
