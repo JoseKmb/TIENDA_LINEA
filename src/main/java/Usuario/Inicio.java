@@ -1,15 +1,13 @@
-package org.example;
+package Usuario;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
 import javafx.scene.web.WebEngine;
-import javafx.scene.web.WebView;
-import javafx.stage.Stage;
+
+import java.util.Objects;
 
 public class Inicio extends Application {
 
@@ -20,7 +18,7 @@ public class Inicio extends Application {
         WebEngine webEngine = webView.getEngine();
 
         // Cargar el archivo HTML desde los recursos
-        String htmlPath = getClass().getResource("/index.html").toExternalForm();
+        String htmlPath = Objects.requireNonNull(getClass().getResource("/index.html")).toExternalForm();
         webEngine.load(htmlPath);
 
         // Crear la escena con el WebView
