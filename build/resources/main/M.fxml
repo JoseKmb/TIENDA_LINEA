@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+
+<!--
+ Interfaz inspirada en la página principal de Mercado Libre.
+ Guarda este archivo como MercadoLibreUI.fxml y enlázalo a la hoja de estilos
+ "mercadolibre.css" (incluida más abajo en el chat) desde tu inicializador JavaFX.
+-->
+
+<BorderPane fx:id="root" prefWidth="1280" prefHeight="720"
+            xmlns:fx="http://javafx.com/fxml" stylesheets="@mercadolibre.css">
+
+    <!-- ───────────── BARRA DE NAVEGACIÓN SUPERIOR ───────────── -->
+    <top>
+        <HBox fx:id="navBar" alignment="CENTER_LEFT" spacing="10"
+              styleClass="navbar">
+            <!-- Logo -->
+            <ImageView fitHeight="40" fitWidth="40" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@logo.png" /> <!-- coloca tu logo.png en el mismo paquete -->
+                </image>
+            </ImageView>
+
+            <!-- Campo de búsqueda -->
+            <TextField fx:id="searchField" HBox.hgrow="ALWAYS" promptText="Buscar productos, marcas y más…"
+                       styleClass="search-field" />
+            <Button text="Buscar" styleClass="btn-buscar" />
+
+            <!-- Espaciador -->
+            <Region HBox.hgrow="ALWAYS" />
+
+            <!-- Menú usuario -->
+            <MenuButton text="Mi cuenta" styleClass="menu-usuario">
+                <items>
+                    <MenuItem text="Mis compras" />
+                    <MenuItem text="Favoritos" />
+                    <MenuItem text="Salir" />
+                </items>
+            </MenuButton>
+            <!-- Carrito -->
+            <Button text="Carrito (0)" styleClass="btn-carrito" />
+        </HBox>
+    </top>
+
+    <!-- ────────────── MENÚ CATEGORÍAS ────────────── -->
+    <left>
+        <ScrollPane fitToWidth="true" prefWidth="220" styleClass="scroll-categorias">
+            <content>
+                <VBox spacing="6" padding="10" styleClass="categoria-panel">
+                    <Label text="Categorías" styleClass="titulo-categoria" />
+                    <Separator />
+                    <Button text="Tecnología" maxWidth="1.7976931348623157E308" />
+                    <Button text="Hogar y Muebles" maxWidth="1.7976931348623157E308" />
+                    <Button text="Moda" maxWidth="1.7976931348623157E308" />
+                    <Button text="Juguetes" maxWidth="1.7976931348623157E308" />
+                    <Button text="Deportes y Fitness" maxWidth="1.7976931348623157E308" />
+                    <Button text="Vehículos" maxWidth="1.7976931348623157E308" />
+                    <Button text="Ver todas" maxWidth="1.7976931348623157E308" />
+                </VBox>
+            </content>
+        </ScrollPane>
+    </left>
+
+    <!-- ────────────── ÁREA PRINCIPAL DE PRODUCTOS ────────────── -->
+    <center>
+        <ScrollPane fx:id="scrollProductos" fitToWidth="true" styleClass="scroll-productos">
+            <content>
+                <TilePane fx:id="contenedorProductos" hgap="12" vgap="16" padding="16"
+                          prefTileWidth="200" prefColumns="4" styleClass="tile-productos">
+                    <!-- Ejemplo de tarjeta producto -->
+                    <VBox styleClass="card-producto" alignment="CENTER" spacing="8">
+                        <ImageView fitWidth="180" fitHeight="180">
+                            <image>
+                                <Image url="@producto1.jpg" /> <!-- reemplaza con tus imágenes -->
+                            </image>
+                        </ImageView>
+                        <Label text="Smartphone X" wrapText="true" styleClass="nombre-producto" />
+                        <Label text="$ 3,999" styleClass="precio-producto" />
+                        <Button text="Añadir al carrito" styleClass="btn-agregar" />
+                    </VBox>
+
+                    <!-- Duplica este bloque VBox para más productos o genera dinámicamente -->
+                </TilePane>
+            </content>
+        </ScrollPane>
+    </center>
+
+    <!-- ────────────── FOOTER ────────────── -->
+    <bottom>
+        <HBox alignment="CENTER" padding="10" styleClass="footer">
+            <Label text="© 2024 MercadoLibre UI Demo — No oficial" />
+        </HBox>
+    </bottom>
+
+</BorderPane>

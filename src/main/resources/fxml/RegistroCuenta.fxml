@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="Controladores.Usuario.RegistroCuentaController"
+      alignment="CENTER" spacing="10">
+
+    <TextField    fx:id="emailField"      promptText="tu@ejemplo.com"/>
+    <TextField    fx:id="nombreField"     promptText="Cómo quieres que te llamen"/>
+    <TextField    fx:id="celularField"    promptText="55 1234 5678"/>
+    <PasswordField fx:id="contrasenaField" promptText="Contraseña"/>
+    <Button       fx:id="btnContinuar"
+                  text="Continuar"
+                  onAction="#crearCuenta"/>
+</VBox>

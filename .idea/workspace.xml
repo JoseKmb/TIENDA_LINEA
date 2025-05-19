@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cb79286-1b15-4156-a88b-1a6d19ea1884" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_9_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/VistaAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/VistaCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ConexionBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/TestConexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/RegistroCuenta.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/Usuario/RegistroCuentaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/Usuario/RegistroCuentaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modelos/Usuarios/CuentaUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modelos/Usuarios/CuentaUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vistas/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vistas/Inicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/crear-cuenta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/crear-cuenta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/crear-cuenta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/crear-cuenta.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MercadoLibre" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GarciaMares2025&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JoseKmb/TIENDA_LINEA.git&quot;,
+    &quot;accountId&quot;: &quot;411c386e-5293-4f8b-a18c-1b0500ee4b67&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2xZFeaZtQcf5OYtteqwEKkx1BX1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build MercadoLibre.executor": "Run",
+    "Gradle.MercadoLibre [:TestFX.main()].executor": "Run",
+    "Gradle.MercadoLibre [:Vistas.Inicio.main()].executor": "Run",
+    "Gradle.MercadoLibre [:util.TestConexion.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "C:/Users/Kolker/Desktop/A/MercadoLibre/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41954023"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.TestConexion">
+    <configuration name="Inicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vistas.Inicio" />
+      <module name="MercadoLibre.main" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Kolker\Downloads\openjfx-24.0.1_windows-x64_bin-sdk\javafx-sdk-24.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.web " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vistas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConexion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.TestConexion" />
+      <module name="MercadoLibre.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestFX" />
+      <module name="MercadoLibre.main" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Kolker\Downloads\openjfx-24.0.1_windows-x64_bin-sdk\javafx-sdk-24.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.web " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestConexion" />
+      <item itemvalue="Application.TestFX" />
+      <item itemvalue="Application.Inicio" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestConexion" />
+        <item itemvalue="Application.TestFX" />
+        <item itemvalue="Application.Inicio" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cb79286-1b15-4156-a88b-1a6d19ea1884" name="Changes" comment="" />
+      <created>1748137787796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748137787796</updated>
+    </task>
+    <servers />
+  </component>
+</project>

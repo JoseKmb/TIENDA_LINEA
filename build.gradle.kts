@@ -1,26 +1,27 @@
 plugins {
-    application
-    id("org.openjfx.javafxplugin") version "0.0.14"
+    id("application")
+    id("org.openjfx.javafxplugin") version "0.0.13"
 }
-
-group = "org.example"
-version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
 }
 
-javafx {
-    version = "21.0.6"
-    modules("javafx.controls", "javafx.web")
+val javafxVersion = "20"
+
+dependencies {
+    implementation("org.openjfx:javafx-controls:$javafxVersion:win")
+    implementation("org.openjfx:javafx-fxml:$javafxVersion:win")
+    implementation("org.openjfx:javafx-web:$javafxVersion:win")
+    implementation("com.mysql:mysql-connector-j:9.2.0")
+
 }
 
 application {
-    mainClass.set("org.example.Inicio")
+    mainClass.set("Vistas.Inicio") // Reemplaza con tu clase principal
 }
 
-tasks.withType<Jar> {
-    from("src/main/resources") {
-        into("/")
-    }
+javafx {
+    version = javafxVersion
+    modules = listOf("javafx.controls", "javafx.fxml", "javafx.web")
 }

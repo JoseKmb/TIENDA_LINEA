@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear cuenta</title>
+    <script>
+        function registrarUsuario() {
+            const datos = {
+                id_usuario: document.getElementById("id_usuario").value,
+                nombre: document.getElementById("nombre").value,
+                apellido: document.getElementById("apellido").value,
+                email: document.getElementById("email").value,
+                password: document.getElementById("password").value,
+                telefono: document.getElementById("telefono").value,
+                direccion: document.getElementById("direccion").value,
+                id_rol: 1
+            };
+
+            fetch("http://localhost:8080/registrar", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(datos)
+            }).then(res => res.text())
+              .then(data => alert(data));
+        }
+    </script>
+</head>
+<body>
+<h1>Crear cuenta</h1>
+<input type="text" id="id_usuario" placeholder="ID Usuario"><br>
+<input type="text" id="nombre" placeholder="Nombre"><br>
+<input type="text" id="apellido" placeholder="Apellido"><br>
+<input type="email" id="email" placeholder="Correo"><br>
+<input type="password" id="password" placeholder="Contraseña"><br>
+<input type="text" id="telefono" placeholder="Teléfono"><br>
+<input type="text" id="direccion" placeholder="Dirección"><br>
+<button onclick="registrarUsuario()">Registrar</button>
+</body>
+</html>
