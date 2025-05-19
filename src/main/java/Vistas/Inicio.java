@@ -1,4 +1,4 @@
-package Usuario;
+package Vistas;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

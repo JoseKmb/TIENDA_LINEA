@@ -1,0 +1,106 @@
+/* Reset & tipografía */
+* {
+margin: 0; padding: 0; box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+background: #f2f2f2;
+color: #333;
+}
+
+/* Header */
+.ml-header {
+background: #ffe600;
+padding: 10px 20px;
+}
+.ml-header .logo img {
+height: 40px;
+}
+
+/* Contenedor principal */
+.registro {
+display: flex;
+justify-content: center;
+padding: 40px 20px;
+}
+
+/* Tarjeta blanca */
+.tarjeta {
+background: #fff;
+border-radius: 8px;
+padding: 30px;
+width: 100%;
+max-width: 500px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.tarjeta h2 {
+margin-bottom: 20px;
+font-size: 1.4rem;
+}
+
+/* Filas del formulario */
+.fila {
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+}
+.icono {
+flex: 0 0 48px;
+height: 48px;
+background: #fff;
+border-radius: 50%;
+border: 1px solid #ccc;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 12px;
+font-size: 1.2rem;
+color: #888;
+}
+.icono-mail::before   { content: "✉️"; }
+.icono-user::before   { content: "👤"; }
+.icono-phone::before  { content: "📱"; }
+.icono-lock::before   { content: "🔒"; }
+
+.datos {
+flex: 1;
+}
+.datos label {
+display: block;
+font-weight: bold;
+margin-bottom: 4px;
+}
+.datos input {
+width: 100%;
+padding: 8px 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+/* Botones */
+.btn-agregar {
+background: #3483fa;
+color: #fff;
+border: none;
+padding: 8px 14px;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 12px;
+}
+.btn-continuar {
+width: 100%;
+background: #00a650;
+color: #fff;
+border: none;
+padding: 12px;
+border-radius: 4px;
+font-size: 1rem;
+cursor: pointer;
+margin-top: 10px;
+}
+.btn-agregar:hover {
+background: #2968c8;
+}
+.btn-continuar:hover {
+background: #007a3f;
+}
