@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb79286-1b15-4156-a88b-1a6d19ea1884" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_9_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/VistaAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/VistaCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/ConexionBD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/TestConexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/RegistroCuenta.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/Usuario/RegistroCuentaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/Usuario/RegistroCuentaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modelos/Usuarios/CuentaUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modelos/Usuarios/CuentaUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vistas/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vistas/Inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/crear-cuenta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/crear-cuenta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/crear-cuenta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/crear-cuenta.html" afterDir="false" />
-    </list>
+    <list default="true" id="7cb79286-1b15-4156-a88b-1a6d19ea1884" name="Changes" comment="Cuarto Avance" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +79,8 @@
     "onboarding.tips.debug.path": "C:/Users/Kolker/Desktop/A/MercadoLibre/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.41954023"
+    "project.structure.side.proportion": "0.41954023",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RunManager" selected="Application.TestConexion">
@@ -161,6 +140,28 @@
       <option name="presentableId" value="Default" />
       <updated>1748137787796</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cuarto Avance">
+      <option name="closed" value="true" />
+      <created>1748149623916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748149623916</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cuarto Avance">
+      <option name="closed" value="true" />
+      <created>1748149647135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748149647135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tercer Avance" />
+    <MESSAGE value="Cuarto Avance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cuarto Avance" />
   </component>
 </project>

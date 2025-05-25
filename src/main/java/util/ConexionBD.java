@@ -10,9 +10,9 @@ public class ConexionBD {
     private Connection conexion;
 
     // Ajusta estos valores a los tuyos
-    private final String url = "jdbc:mysql://127.0.0.1:3306/sistema_ventas?useSSL=false&serverTimezone=UTC";
+    private final String url = "-----";
     private final String usuario = "root";
-    private final String contrasena = "Hola123";
+    private final String contrasena = "------";
 
     private ConexionBD() {
         try {
