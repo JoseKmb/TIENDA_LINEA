@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.root {
+  -fx-font-family: 'Roboto', sans-serif;
+  -fx-background-color: white;
+}
+
+/* HEADER */
+.header {
+  -fx-background-color: #FFE600;
+}
+
+/* Logo */
+/* (configurado en código) */
+
+/* Buscador */
+#buscador {
+  -fx-pref-width: 400px;
+  -fx-font-size: 14px;
+  -fx-padding: 6 10 6 10;
+  -fx-border-radius: 4;
+  -fx-background-radius: 4;
+  -fx-border-color: #ddd;
+  -fx-background-color: white;
+}
+
+/* Botón registrar / crear */
+.button-registrar {
+  -fx-background-color: #FFE600;
+  -fx-text-fill: #222;
+  -fx-font-weight: bold;
+  -fx-font-size: 16px;
+  -fx-padding: 12 20 12 20;
+  -fx-cursor: hand;
+}
+.button-registrar:hover {
+  -fx-background-color: #FFDC00;
+}

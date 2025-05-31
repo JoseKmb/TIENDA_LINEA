@@ -7,27 +7,35 @@ import util.ConexionBD;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+/**
+ * Controlador para registrar una cuenta de usuario.
+ */
 public class RegistroCuentaController {
 
-    /**
-     * Este método se encarga de recibir un objeto CuentaUsuario y
-     * solicitar al repositorio que lo persista en la base de datos.
-     *
-     * @param usuario Objeto CuentaUsuario con los datos del nuevo usuario.
-     * @return true si el registro fue exitoso, false si ocurrió un error.
-     */
     public boolean registrarCuenta(CuentaUsuario usuario) {
-        try (Connection conn = ConexionBD.getInstancia().getConexion()) {
+        Connection conn = ConexionBD.getInstancia().getConexion();
 
-            // Crea el repositorio pasando la conexión como dependencia (inyección)
-            UsuarioRepository repo = new UsuarioRepository(conn);
-
-            // Intenta guardar el usuario en la base de datos
-            return repo.guardar(usuario);
-
-        } catch (SQLException e) {
-            System.err.println("Error al registrar cuenta: " + e.getMessage());
+        if (conn == null) {
+            System.err.println("❌ No se pudo abrir la conexión a la BD (sistema_ventas).");
             return false;
         }
+
+        UsuarioRepository repo = new UsuarioRepository(conn);
+        boolean exito         = false;
+
+        try {
+            exito = repo.guardar(usuario);
+        } catch (Exception e) {
+            System.err.println("❌ Excepción inesperada al guardar el usuario: " + e.getMessage());
+            exito = false;
+        } finally {
+            try {
+                conn.close();
+            } catch (SQLException e) {
+                System.err.println("❌ Error cerrando la conexión: " + e.getMessage());
+            }
+        }
+
+        return exito;
     }
 }

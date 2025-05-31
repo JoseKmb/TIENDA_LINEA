@@ -1,27 +1,36 @@
 plugins {
-    id("application")
-    id("org.openjfx.javafxplugin") version "0.0.13"
+    application
+    // Actualiza a la última versión del plugin JavaFX
+    id("org.openjfx.javafxplugin") version "0.0.14"
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 }
 
 repositories {
     mavenCentral()
 }
 
-val javafxVersion = "20"
+val javafxVersion = "21.0.6" // Asegúrate de coincidir con la SDK que descargaste
 
 dependencies {
-    implementation("org.openjfx:javafx-controls:$javafxVersion:win")
-    implementation("org.openjfx:javafx-fxml:$javafxVersion:win")
-    implementation("org.openjfx:javafx-web:$javafxVersion:win")
-    implementation("com.mysql:mysql-connector-j:9.2.0")
+    // Ya no necesitamos los classifiers ":win", el plugin se encarga de traer el runtime correcto
+    implementation("org.openjfx:javafx-controls:$javafxVersion")
+    implementation("org.openjfx:javafx-fxml:$javafxVersion")
+    implementation("org.openjfx:javafx-web:$javafxVersion")
 
+    implementation("com.mysql:mysql-connector-j:9.2.0")
+    implementation("com.google.code.gson:gson:2.10.1")
 }
 
 application {
-    mainClass.set("Vistas.Inicio") // Reemplaza con tu clase principal
+    // Clase que extiende javafx.application.Application
+    mainClass.set("Vistas.InicioFX")
 }
 
 javafx {
     version = javafxVersion
-    modules = listOf("javafx.controls", "javafx.fxml", "javafx.web")
+    modules = listOf("javafx.controls", "javafx.fxml",  "javafx.web", "javafx.graphics"// si usas WebView más adelante
+    )
 }
