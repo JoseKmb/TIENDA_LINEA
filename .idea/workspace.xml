@@ -4,216 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb79286-1b15-4156-a88b-1a6d19ea1884" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/Controladores/Usuario/RegistroCuentaController.java&#10;#&#9;src/main/java/Modelos/Usuarios/CuentaUsuario.java&#10;#&#9;src/main/java/Vistas/Inicio.java&#10;#&#9;src/main/resources/crear-cuenta.css&#10;#&#9;src/main/resources/crear-cuenta.html">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controladores/Catalogo/CatalogoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controladores/Usuario/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modelos/Catalogo/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modelos/Catalogo/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/AbstractRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/CategoriaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/ProductoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/CatalogoView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/FormularioRegistro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/Inicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/InicioSimulado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/LoginView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/RegistroSimulado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/componentes/ProductoCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/javafx/InicioFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/inicio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="7cb79286-1b15-4156-a88b-1a6d19ea1884" name="Changes" comment="5 avanece">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/ProductosPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Controladores/Usuario/RegistroCuentaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Controladores/Usuario/RegistroCuentaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Modelos/Usuarios/CuentaUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Modelos/Usuarios/CuentaUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Repository/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Vistas/Inicio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Vistas/VistaAdmin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Vistas/VistaCliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/util/ConexionBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/util/ConexionBD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/util/TestConexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/util/TestConexion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/crear-cuenta.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/crear-cuenta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/crear-cuenta.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/crear-cuenta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/bank.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/cart-meli.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/cash.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-10.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-11.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-12.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-13.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-14.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/categories-9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/chevron-down-blue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/chevron-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/credit-card.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/diney-plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/footer-payment.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/footer-protected.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/footer-shipping.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/full-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/logo-meli.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/magnifying-glass.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/map-pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/plus-rounded.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/icons/star-plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/banner-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/benefit-bg-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/benefit-bg-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/benefit-bg-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/benefit-brand-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/benefit-brand-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/benefit-brand-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/collections-main-card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/discover-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/discover-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/footer-pum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/footer-sic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/offer-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/offer-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/offer-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/offer-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/offer-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-1-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-1-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-1-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-2-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-2-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-2-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-3-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-3-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-3-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-4-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-4-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-4-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-bg-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-bg-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-bg-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-bg-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-logo-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-logo-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/store-logo-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/media/images/truck-meli-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ConexionBD.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/RegistroCuentaController.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TestConexion.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Inicio.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/InicioSimulado$1.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/InicioSimulado$2.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/InicioSimulado$3.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/InicioSimulado$4.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/InicioSimulado$5.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/InicioSimulado.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/RegistroSimulado.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/Usuario/RegistroCuentaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/Usuario/RegistroCuentaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modelos/Usuarios/CuentaUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modelos/Usuarios/CuentaUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vistas/Inicio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vistas/VistaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/VistaAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vistas/VistaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/VistaCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ConexionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ConexionBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/crear-cuenta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/crear-cuenta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/crear-cuenta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/crear-cuenta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/bank.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/cart-meli.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/cash.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-10.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-11.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-12.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-13.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-14.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/categories-9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/chevron-down-blue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/chevron-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/credit-card.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/diney-plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/footer-payment.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/footer-protected.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/footer-shipping.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/full-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/logo-meli.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/magnifying-glass.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/map-pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/plus-rounded.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/icons/star-plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/banner-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/benefit-bg-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/benefit-bg-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/benefit-bg-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/benefit-brand-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/benefit-brand-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/benefit-brand-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/collections-main-card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/discover-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/discover-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/footer-pum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/footer-sic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/offer-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/offer-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/offer-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/offer-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/offer-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-1-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-1-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-1-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-2-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-2-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-2-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-3-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-3-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-3-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-4-product-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-4-product-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-4-product-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-bg-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-bg-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-bg-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-bg-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-logo-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-logo-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/store-logo-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/media/images/truck-meli-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vistas/Swing/InicioSimulado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vistas/Swing/InicioSimulado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748149754607</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="5 avanece">
+      <option name="closed" value="true" />
+      <created>1748733254886</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748733254886</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +257,8 @@
     <MESSAGE value="Tercer Avance" />
     <MESSAGE value="Cuarto Avance" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/Controladores/Usuario/RegistroCuentaController.java&#10;#&#9;src/main/java/Modelos/Usuarios/CuentaUsuario.java&#10;#&#9;src/main/java/Vistas/Inicio.java&#10;#&#9;src/main/resources/crear-cuenta.css&#10;#&#9;src/main/resources/crear-cuenta.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/Controladores/Usuario/RegistroCuentaController.java&#10;#&#9;src/main/java/Modelos/Usuarios/CuentaUsuario.java&#10;#&#9;src/main/java/Vistas/Inicio.java&#10;#&#9;src/main/resources/crear-cuenta.css&#10;#&#9;src/main/resources/crear-cuenta.html" />
+    <MESSAGE value="5 avanece" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 avanece" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
